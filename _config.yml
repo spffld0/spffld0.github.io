@@ -1,8 +1,42 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: spffld0's blog
+email: spffld0@outlook.com
+description: A blog on math and competitive programming
+baseurl: ""
+url: ""
+permalink: pretty
+
+
+# Build settings
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# Syntax highlighting with line numbers
+compress_html:
+  ignore:
+    envs: all
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+
+# Callout configuration
+callouts_level: quiet 
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
